@@ -1,0 +1,9 @@
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+*.cache
+.sass-cache/
+*.log
+node_modules/
+stuff/
+dist/

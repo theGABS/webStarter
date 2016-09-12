@@ -1,0 +1,33 @@
+{
+  "name": "WebStarter",
+  "version": "1.0.0",
+  "dependencies": {
+    "babelify": "*",
+    "browserify": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-file-include": "*",
+    "gulp-imagemin": "*",
+    "gulp-jade": "*",
+    "gulp-livereload": "^3.8.1",
+    "gulp-order": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "gulp.spritesmith": "*",
+    "map-stream": "*",
+    "tiny-lr": "^0.2.1",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*",
+    "watchify": "*"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp-scss-lint": "^0.4.0"
+  }
+}
