@@ -6,7 +6,7 @@ var testES6 = () => {
 
 testES6();
 
-var $ =  require('jQuery');
+var $ = require('jquery');
 $( () => {
 	$('.block').css('color', '#462');
 });

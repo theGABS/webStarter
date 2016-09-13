@@ -3,9 +3,10 @@ include bemto/bemto
 doctype html
 html
   head
+  	link(href='css/style.css', rel='stylesheet')
     title My title
     block head
-    link(href='css/style.css', rel='stylesheet')
+    meta(http-equiv="content-type", content="#{contentType}; charset=UTF-8")
   body
     block content
     script(src="js/build.js")

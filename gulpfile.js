@@ -82,7 +82,7 @@ gulp.task('es-lint', () => {
 
 
 gulp.task('jade', () => {
-  gulp.src(srcFolder + 'jade/**/*.jade')
+  gulp.src(srcFolder + 'jade/page/*.jade')
     .pipe(jade({}))
     .pipe(gulp.dest(distFolder));
 })
@@ -162,11 +162,11 @@ gulp.task('scss-lint', function() {
 
 gulp.task('watch', function() {
   livereload.listen();
-  gulp.watch(srcFolder + 'css/**/*.scss', ['sass, scss-lint']);
+  gulp.watch(srcFolder + 'scss/**/*.scss', ['sass' , 'scss-lint']);
   gulp.watch(srcFolder + '**/*.html', ['fileinclude']);
   gulp.watch(srcFolder + 'images/**/*', ['imageopt']);
   gulp.watch(srcFolder + 'images/sprite/*.png', ['sprite']);
-  gulp.watch(srcFolder + 'js/**/*.js', ['js, es-lint']);
+  gulp.watch(srcFolder + 'js/**/*.js', ['js', 'es-lint']);
   gulp.watch(srcFolder + 'jade/**/*.jade', ['jade']);
 });
 
